@@ -34,18 +34,19 @@ public class PlayerMovement : MonoBehaviour {
         return new Vector2(vector.x, vector.y);
     }
 
-    private void Update() {
+    private void FixedUpdate() {
         if (IsPressed) {
             Vector3 targetPosition = GetTouchWorldPosition();
             Vector3 direction = targetPosition - transform.position;
-            _rigidbody.velocity = direction.normalized * _speedUinitsPerSecond;
+            _rigidbody.AddForce(direction.normalized * _speedUinitsPerSecond * Time.deltaTime, ForceMode2D.Force);
         }
 
         else if (Input.GetKey(KeyCode.Space)) {
             Vector3 targetPosition = GetMouseWorldPosition();
             Vector3 direction = targetPosition - transform.position;
             //transform.position += direction.normalized * _speedUinitsPerSecond * Time.unscaledDeltaTime;
-            _rigidbody.velocity = direction.normalized * _speedUinitsPerSecond;
+            Vector3 force = direction.normalized * _speedUinitsPerSecond;
+            _rigidbody.AddForce(direction.normalized * _speedUinitsPerSecond * Time.deltaTime, ForceMode2D.Force);
 
             //Debug.Log(direction.normalized.magnitude + "   ---");
         }
