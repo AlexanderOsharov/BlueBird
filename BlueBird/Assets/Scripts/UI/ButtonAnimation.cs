@@ -1,7 +1,7 @@
 using UnityEngine;
 
 public class ButtonAnimation : MonoBehaviour {
-    [SerializeField] private float _minTime;
+    /*[SerializeField] private float _minTime;
     [SerializeField] private float _maxTime;
     [SerializeField] private float _deltaRotation;
 
@@ -32,5 +32,23 @@ public class ButtonAnimation : MonoBehaviour {
             _passedTime = 0;
             ResetTimeToRotate();
         }
+    }*/
+
+    [SerializeField] float speed = 1;
+    [SerializeField] float amplitude = 2;
+
+    float baseScale;
+
+    private void Start() {
+
+        baseScale = transform.localScale.x;
+    }
+
+
+    void Update() {
+
+
+        float sin = Mathf.Sin(Time.time * speed);
+        transform.localScale = (baseScale + amplitude * Mathf.Abs(sin)) * Vector3.one;
     }
 }

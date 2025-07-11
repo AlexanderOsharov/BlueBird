@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 
 public class WinCheck : MonoBehaviour {
-    public bool Won => _fragmentHolder.CollectedFragments == _fragmentsCount;
+    public bool Won => _fragmentHolder.CollectedFragments == _fragmentsCount && _fragmentHolder.IsCapsuleCollected;
 
     public event Action OnWin;
 

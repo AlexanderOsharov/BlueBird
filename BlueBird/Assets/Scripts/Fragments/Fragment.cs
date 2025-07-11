@@ -5,6 +5,7 @@ public class Fragment : MonoBehaviour {
         if (other.gameObject.TryGetComponent<FragmentHolder>(out var player)) {
             player.CollectFragment();
             Destroy(gameObject);
+            Debug.Log("12344");
         }
     }
 }
