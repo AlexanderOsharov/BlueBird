@@ -17,17 +17,18 @@ public class BlueBirdRotation : MonoBehaviour {
         _blueBirdInput = GetComponent<BlueBirdInput>();
     }
 
-    private void Update() {
+    private void FixedUpdate() {
         if (_blueBirdInput.IsActive) {
             Vector2 targetDir = _blueBirdInput.TouchPosInGame - transform.position;
+
             float angle = Vector2.SignedAngle(RotationAsVector, targetDir);
             float speed = Mathf.Sign(angle) * _angleSpeed * Time.deltaTime;
-            if (Mathf.Abs(angle) < speed) {
 
-            }
-            else {
+            if (Mathf.Abs(angle) > speed) {
                 transform.Rotate(0, 0, speed);
             }
+            // Debug.Log("Start");
         }
+        // Debug.Log("End");
     }
 }

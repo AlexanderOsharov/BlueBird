@@ -4,6 +4,7 @@ public class BlueBirdInput : MonoBehaviour {
     [SerializeField] private KeyCode _key = KeyCode.Space;
     [SerializeField] private float _minValidDirectionLength;
 
+    public bool Enabled { get; set; } = true;
     private Camera _camera;
 
     private void Start() {
@@ -12,8 +13,9 @@ public class BlueBirdInput : MonoBehaviour {
 
     public bool IsTouched => Input.touchCount > 0 || Input.GetKey(_key);
 
-    public bool IsActive => IsTouched && 
-                            (TouchPosInGame - transform.position).magnitude >= _minValidDirectionLength;
+    public bool IsActive => IsTouched &&
+                            Enabled &&
+                            (TouchPosInGame - transform.position).magnitude >= _minValidDirectionLength ;
 
     public Vector3 TouchPosInGame {
         get {
