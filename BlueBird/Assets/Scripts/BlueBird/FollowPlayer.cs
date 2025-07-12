@@ -27,8 +27,6 @@ public class FollowPlayer : MonoBehaviour {
             _topRightCorner.position.x - CameraHalfWidth
         );
 
-        Debug.Log(CameraHalfWidth);
-
         targetPosition.y = Mathf.Clamp(
             targetPosition.y,
             _bottomLeftCorner.position.y + CameraHalfHeight,
