@@ -12,7 +12,7 @@ public class TreeMotion : MonoBehaviour {
     }
 
     private void Update() {
-        Vector3 delta = _maxOffset.normalized * _dist * Mathf.Sin(Time.time * _speed);
+        Vector3 delta = _maxOffset.normalized * _dist * Mathf.Sin(Time.unscaledTime * _speed);
         transform.position = _position + delta;
     }
 }
