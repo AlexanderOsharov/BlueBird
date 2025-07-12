@@ -38,7 +38,7 @@ public class FollowPlayer : MonoBehaviour {
         transform.position = Vector3.Lerp(
             transform.position,
             targetPosition,
-            _speed * Time.deltaTime
+            _speed * Time.unscaledDeltaTime
         );
     }
 }
