@@ -6,6 +6,7 @@ public class ButtonAnimationRot : MonoBehaviour {
     [SerializeField] float amplitude = 2;
 
     float baseRot;
+    RectTransform _trans;
 
     private void Start() {
 
@@ -15,7 +16,7 @@ public class ButtonAnimationRot : MonoBehaviour {
 
     void Update() {
 
-        float delta = baseRot + amplitude * Mathf.Sin(Time.time * speed);
+        float delta = baseRot + amplitude * Mathf.Sin(Time.unscaledTime * speed);
         transform.localRotation = Quaternion.Euler(0, 0, delta);
     }
 }

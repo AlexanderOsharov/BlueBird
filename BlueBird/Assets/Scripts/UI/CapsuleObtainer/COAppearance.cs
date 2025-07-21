@@ -8,7 +8,7 @@ public class COAppearance : MonoBehaviour {
 
     private bool _shouldAppear = false;
 
-    public bool Collected {  get; set; } = false;
+    public bool Collected { get; set; } = false;
 
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.TryGetComponent<FragmentHolder>(out var _)) {

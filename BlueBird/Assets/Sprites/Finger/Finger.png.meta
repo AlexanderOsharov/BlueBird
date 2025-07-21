@@ -1,0 +1,800 @@
+fileFormatVersion: 2
+guid: 2d618ca5c4ddd334786792afe43ea0bf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Finger_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2666.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0354c4c4e0736fa4cb4aecb3dd97552a
+      internalID: -2022704945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_1
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2666.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85f3a7b1112a8a4cbc3d7ebcad23ad3
+      internalID: -394905667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_2
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2666.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9687ce0d86b4e49a1efd6bbad2dbaa
+      internalID: -1862121785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_3
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 2666.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9713167aad5da06469bf6e65dbf1d336
+      internalID: 268387612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_4
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 2666.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30df194ae201784789a382abe39e396
+      internalID: 1620206193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_5
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 2666.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fcba9824612544aa61141ecffb96bc
+      internalID: -205460978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2a3bf13d0e6b04cbd99dc52bd1f727
+      internalID: 831787314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_7
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2000.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a104fe0c94d33d4a953689c19f90860
+      internalID: -707342079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_8
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2000.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d275b4a46f36b784ebe4c14a61157669
+      internalID: -1140579521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_9
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 2000.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0355e26188422d04ea5533a1f192e1dd
+      internalID: -785864543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_10
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 2000.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1952d5e32fbfb3e4c98b1df160bd4d28
+      internalID: 1394345461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_11
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 2000.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0124382420691284087362f1d28bdbae
+      internalID: 821358351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1334.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db16dce6b88f5b42b083829594ab209
+      internalID: 44033396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_13
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1334.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484609535b67b7843aa6dca896ec4dc9
+      internalID: -1145440705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_14
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1334.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1d4b307c08eb443aba216e1b9ba14c
+      internalID: -1489679613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_15
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 1334.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4bada0b1d0d2e43a5060d18037026a
+      internalID: 1133485443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_16
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 1334.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7beedcb8218a80d4c84b5b801f1aaa54
+      internalID: 2091490052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_17
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 1334.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026f9ba134beedb4a8db169fb2405ff5
+      internalID: 2017176450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 668.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1e884b257999f45a1f0c1628fe3bef
+      internalID: 2055305186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_19
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 668.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d5046484f0dc947ac2718df2b4571a
+      internalID: -1666020880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_20
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 668.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa3c5d719c2190428c822db771958ac
+      internalID: 1918948868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_21
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 668.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b588dde116a00104d8c58e7a500d4410
+      internalID: -432693654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_22
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 668.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88bf0d5a67d0ff4a958e5119af133e1
+      internalID: -1195035901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_23
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 668.4
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a5d719051636c4e8c753db19f0ed01
+      internalID: 1363350207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.4000244
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620be3f716107c8499a0c9b357ace1c6
+      internalID: 2121110503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_25
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2.4000244
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2efb9f560ab38845b310848b8e81c29
+      internalID: 1068265104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_26
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2.4000244
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc51d2fb9cec674bb59d769dc455cb4
+      internalID: -1920340294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_27
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 2.4000244
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d39b82924240743b27a233d0184635
+      internalID: 1907145530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_28
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 2.4000244
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6255d232dbd52164d9d62fe13708a1fb
+      internalID: 825055313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finger_29
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 2.4000244
+        width: 666.6667
+        height: 666.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def1096eef8ad2240bd50aa5a96dd598
+      internalID: -178822939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Finger_0: -2022704945
+      Finger_1: -394905667
+      Finger_10: 1394345461
+      Finger_11: 821358351
+      Finger_12: 44033396
+      Finger_13: -1145440705
+      Finger_14: -1489679613
+      Finger_15: 1133485443
+      Finger_16: 2091490052
+      Finger_17: 2017176450
+      Finger_18: 2055305186
+      Finger_19: -1666020880
+      Finger_2: -1862121785
+      Finger_20: 1918948868
+      Finger_21: -432693654
+      Finger_22: -1195035901
+      Finger_23: 1363350207
+      Finger_24: 2121110503
+      Finger_25: 1068265104
+      Finger_26: -1920340294
+      Finger_27: 1907145530
+      Finger_28: 825055313
+      Finger_29: -178822939
+      Finger_3: 268387612
+      Finger_4: 1620206193
+      Finger_5: -205460978
+      Finger_6: 831787314
+      Finger_7: -707342079
+      Finger_8: -1140579521
+      Finger_9: -785864543
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

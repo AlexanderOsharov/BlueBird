@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(BlueBirdInput))]
 public class BlueBirdRotation : MonoBehaviour {
@@ -17,18 +17,17 @@ public class BlueBirdRotation : MonoBehaviour {
         _blueBirdInput = GetComponent<BlueBirdInput>();
     }
 
-    private void FixedUpdate() {
+    private void Update() {
         if (_blueBirdInput.IsActive) {
             Vector2 targetDir = _blueBirdInput.TouchPosInGame - transform.position;
 
-            float angle = Vector2.SignedAngle(RotationAsVector, targetDir);
-            float speed = Mathf.Sign(angle) * _angleSpeed * Time.deltaTime;
+            float targetAngle = Mathf.Atan2(targetDir.y, targetDir.x) * Mathf.Rad2Deg;
+            float currentAngle = transform.eulerAngles.z;
 
-            if (Mathf.Abs(angle) > speed) {
-                transform.Rotate(0, 0, speed);
-            }
-            // Debug.Log("Start");
+            // Плавный поворот к целевому углу
+            float newAngle =
+                Mathf.MoveTowardsAngle(currentAngle, targetAngle, _angleSpeed * Time.deltaTime);
+            transform.rotation = Quaternion.Euler(0, 0, newAngle);
         }
-        // Debug.Log("End");
     }
 }

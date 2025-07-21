@@ -3,6 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class PlayButton : MonoBehaviour {
     public void LoadGameScene() {
-        SceneManager.LoadScene(1);
+        FindObjectOfType<SceneTransition>().ChangeScene(1);
     }
 }

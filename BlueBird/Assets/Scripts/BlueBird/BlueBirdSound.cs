@@ -5,9 +5,10 @@ public class MusicController : MonoBehaviour {
     [SerializeField] private AudioClip clip;
     [SerializeField] private float speed;
     [SerializeField] private float maxVolume;
+    [SerializeField] private Inentory _inventory;
 
     private AudioSource audioSource;
-    private float TargetVolume => blueBirdInput.IsActive ? maxVolume : 0.0f;
+    private float TargetVolume => (blueBirdInput.IsActive && !_inventory.Won) ? maxVolume : 0.0f;
 
     void Awake() {
         audioSource = GetComponent<AudioSource>();
@@ -15,6 +16,6 @@ public class MusicController : MonoBehaviour {
     }
 
     private void Update() {
-        audioSource.volume = Mathf.Lerp(audioSource.volume, TargetVolume, Time.deltaTime * speed);
+        audioSource.volume = Mathf.Lerp(audioSource.volume, TargetVolume, Time.unscaledDeltaTime * speed);
     }
 }

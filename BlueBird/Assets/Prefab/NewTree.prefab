@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _maxOffset: {x: 1, y: 0.4, z: 0}
-  _dist: 0.15
+  _dist: 0.08
   _speed: 1
 --- !u!1 &1181661544862377052
 GameObject:
@@ -268,7 +268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _maxOffset: {x: 1, y: 0.4, z: 0}
-  _dist: 0.2
+  _dist: 0.11
   _speed: 1
 --- !u!1 &6928391332344102761
 GameObject:
@@ -368,5 +368,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _maxOffset: {x: 1, y: 0.4, z: 0}
-  _dist: 0.1
+  _dist: 0.05
   _speed: 1

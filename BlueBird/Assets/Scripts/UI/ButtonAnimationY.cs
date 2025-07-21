@@ -15,7 +15,7 @@ public class ButtonAnimationY : MonoBehaviour {
 
     void Update() {
 
-        float delta = amplitude * Mathf.Sin(Time.time * speed);
+        float delta = amplitude * Mathf.Sin(Time.unscaledTime * speed);
         Vector3 pos = transform.localPosition;
         pos.y = baseY + delta;
         transform.localPosition = pos;

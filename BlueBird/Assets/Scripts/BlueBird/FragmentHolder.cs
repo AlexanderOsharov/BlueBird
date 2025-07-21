@@ -6,7 +6,6 @@ public class FragmentHolder : MonoBehaviour {
 
     public void CollectFragment() {
         ++CollectedFragments;
-        Debug.Log("Coolected    " + CollectedFragments);
     }
     public void CollectCapsule() => IsCapsuleCollected = true;
 }

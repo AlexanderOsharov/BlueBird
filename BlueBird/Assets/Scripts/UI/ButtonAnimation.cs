@@ -47,8 +47,7 @@ public class ButtonAnimation : MonoBehaviour {
 
     void Update() {
 
-
-        float sin = Mathf.Sin(Time.time * speed);
+        float sin = Mathf.Sin(Time.unscaledTime * speed);
         transform.localScale = (baseScale + amplitude * Mathf.Abs(sin)) * Vector3.one;
     }
 }
