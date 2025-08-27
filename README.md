@@ -80,7 +80,7 @@ Assets/
 
 ## 🔗 Ссылки
 
-- [Демо на YouTube](https://alexanderosharov.github.io/AlexanderOsharov/)
+- [Демо](https://alexanderosharov.github.io/AlexanderOsharov/)
 - [GitHub репозиторий](https://github.com/AlexanderOsharov/BlueBird/)
 
 ---
